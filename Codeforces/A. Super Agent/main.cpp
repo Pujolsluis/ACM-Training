@@ -18,8 +18,16 @@ int main()
             return 0;
         }
     }
-    if(matrix[1][0] == 'X' && matrix[1][2] != 'X'){
+    for(int i=0; i<3; i++){
+        if(matrix[0][i] != 'X' && matrix[2][2-i] == 'X'){
+            cout << "NO" << endl;
+            return 0;
+        }
+    }
+
+    if((matrix[1][0] == 'X' && matrix[1][2] != 'X') || (matrix[1][2] == 'X' && matrix[1][0] != 'X')){
         cout << "NO" << endl;
+        return 0;
     }
     cout << "YES" << endl;
     return 0;
