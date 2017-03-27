@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1490652825 source:c:\users\oficina\documents\codeforces problems\a. new bus route\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<math.h>
+
