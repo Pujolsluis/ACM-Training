@@ -27,7 +27,7 @@ int main()
     cout << cnt << endl;
     for(int i=0; i<chessBoard.size(); i++){
         for(int q=0; q<chessBoard[i].size(); q++){
-        cout << chessBoard[i][q] << " ";
+        cout << chessBoard[i][q];
         }
         cout << endl;
     }
