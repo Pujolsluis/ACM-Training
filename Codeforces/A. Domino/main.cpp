@@ -24,6 +24,11 @@ int main()
             imparesBotV.push_back(i);
         }
     }
+    if(imparesTop == 0 && imparesBottom == 0 || imparesTop % 2 == 0 && imparesBottom % 2 == 0){
+        cout << 0 << endl;
+        return 0;
+    }
+
 
     return 0;
 }
