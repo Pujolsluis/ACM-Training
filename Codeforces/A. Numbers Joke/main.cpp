@@ -8,6 +8,7 @@ int main()
     int n;
     cin >> n;
     n--;
+
     cout << numbs[n] << endl;
     return 0;
 }
