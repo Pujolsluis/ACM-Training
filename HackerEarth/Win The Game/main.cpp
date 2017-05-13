@@ -9,7 +9,7 @@ double go(int R, int G){
 
     if(G <= 0) return 1.00;
     if(memo[R][G] != 0) return memo[R][G];
-    double sol = ((R/R+G) + (G/R+G) * (G/R+G-1) * (1 - go(R, G-2)));
+    double sol = ((R/R+G) + (1 -(G/R+G)) * (G/R+G-1) * (1 - go(R, G-2)));
     memo[R][G] = sol;
     return sol;
 }

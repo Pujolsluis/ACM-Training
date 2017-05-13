@@ -3,21 +3,30 @@
 using namespace std;
 
 string s;
-int memo[10004];
+const int MAX = 10000004;
+int memo[MAX];
 int go(int n){
-    n--;
-    if(memo[n] >= 0) return memo[n];
-    int result = 0;
-    for(int i=n; i<s.length(); i++){
-        if((s[i] - '0') % 2 == 0) result++;
-    }
+    if( n == s.length()) return 0;
+
+    if(memo[n] > -1) return memo[n];
+
+    int sol = 0;
+    if(s[n] % 2 == 0)  sol += 1 + go(n+1);
+    else sol = go(n+1);
+
+    memo[n] = sol;
+    return sol;
 
 }
 
 int main()
 {
-    memset(memo, -1, 10004);
+    memset(memo, -1, MAX);
     cin >> s;
-
+    cout << s.length() << endl;
+    for(int i=0; i<s.length(); i++){
+        cout << go(i) << " ";
+    }
+    cout << endl;
     return 0;
 }
