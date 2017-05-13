@@ -1,12 +1,15 @@
 #include <iostream>
-#include <string.h>
+#include <cstdio>
+#include <string>
+#include <cstring>
+
 using namespace std;
 
 string s;
-const int MAX = 10000004;
+const int MAX = 100004;
 int memo[MAX];
 int go(int n){
-    if( n == s.length()) return 0;
+    if( n >= s.length()) return 0;
 
     if(memo[n] > -1) return memo[n];
 
@@ -21,12 +24,14 @@ int go(int n){
 
 int main()
 {
-    memset(memo, -1, MAX);
+    freopen("C:\\Users\\1057385\\Desktop\\test7.txt", "r", stdin);
+    memset(memo, -1, sizeof(memo));
     cin >> s;
-    cout << s.length() << endl;
+    go(0);
     for(int i=0; i<s.length(); i++){
-        cout << go(i) << " ";
+        cout << memo[i] << " ";
     }
     cout << endl;
+    cout << "Length: " <<  s.length() << endl;
     return 0;
 }
