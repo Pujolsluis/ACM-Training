@@ -7,7 +7,7 @@ int main()
     int N;
     cin >> N;
     vector<int> rankYears;
-    for(int i=0; i<N; i++){
+    for(int i=0; i<N-1; i++){
         int temp;
         cin >> temp;
         rankYears.push_back(temp);
