@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1495078602 source:c:\users\oficina\version-control\acm-training\a. army\main.cpp
+	<iostream>
+	<vector>
+
