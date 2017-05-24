@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1495597173 source:c:\users\oficina\version-control\acm-training\codeforces\b. sale\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
