@@ -24,9 +24,7 @@ int main()
         }else{
             consistency = 0;
         }
-        cout << consistency << " ";
     }
-    cout << endl;
     cout << best << endl;
     return 0;
 }
