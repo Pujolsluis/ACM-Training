@@ -12,8 +12,8 @@ int main()
     int T;
     cin >> T;
     for(int i=0; i<T; i++){
-        long long a,b,c,d, k;
-        cin >> a >> b >> c >> d >> k;
+       long long a,b,c,d,k;
+       cin >> a >> b >> c >> d >> k;
        long long cnt = 1;
        bool alive = true;
        while(alive){
