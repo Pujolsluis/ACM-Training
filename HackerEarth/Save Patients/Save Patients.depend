@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1495935421 source:c:\users\oficina\version-control\acm-training\hackerearth\save patients\main.cpp
+	<iostream>
+	<vector>
+
