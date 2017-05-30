@@ -13,7 +13,7 @@ int main()
         numbers.push_back(temp);
     }
     int n1=0,n2=1,n3=2;
-    int cnt1=0,cnt2=0,cnt3=0;
+    long long cnt1=0,cnt2=0,cnt3=0;
     while(n1 < numbers.size()){
         if(n1 < numbers.size()){
             cnt1 += numbers[n1];
