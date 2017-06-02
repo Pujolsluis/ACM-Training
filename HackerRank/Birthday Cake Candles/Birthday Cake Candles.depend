@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1496383753 source:c:\users\luisp\version-control\acm-training\hackerrank\birthday cake candles\main.cpp
+	<iostream>
+	<cstring>
+
