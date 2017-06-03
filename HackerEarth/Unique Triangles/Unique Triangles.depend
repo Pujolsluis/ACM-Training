@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1496461571 source:c:\users\oficina\version-control\acm-training\hackerearth\unique triangles\main.cpp
+	<iostream>
+	<map>
+	<vector>
+	<algorithm>
+
