@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1497713883 source:c:\users\1057385\version-control\acm-training\codeforces\problemcontest16junb\main.cpp
+	<iostream>
+	<vector>
+

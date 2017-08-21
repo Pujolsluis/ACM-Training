@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1497112941 source:c:\users\1057385\version-control\acm-training\hackerrank\longest increasing subsequence\main.cpp
+	<iostream>
+	<vector>
+	<cstring>
+
