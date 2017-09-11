@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1505105048 source:c:\users\personal\version-control\acm-training\codeforces\contestmashupproblemanabandonedsentimentfrompast\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
