@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1505279154 source:c:\users\personal\version-control\acm-training\codeforces\f. multiples de 3 o 5\main.cpp
+	<iostream>
+	<vector>
+	<map>
+
