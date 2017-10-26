@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508557773 source:c:\users\usuario\version-control\acm-training\coj\flooded area\main.cpp
+	<cstdio>
+	<vector>
+
